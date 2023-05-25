@@ -1,0 +1,565 @@
+/* font-family: 'Be Vietnam Pro', sans-serif; */
+
+
+
+
+
+/* Color:
+    #913bff;
+    #00284E;
+    #010d4c;
+    #ffffff;
+    #0066ff;
+    #0043a8;
+
+} */
+
+
+/* Custom Css Start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.sp {
+    padding: 80px 0;
+}
+
+.reduce {
+    margin-top: -50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Custom Css End */
+
+
+
+
+
+/* Header Section Css Start */
+.logo a:hover{
+    color: #000 !important;
+    transition: 0.4 ease-in-out;
+}
+.menu-item li {
+    display: inline-block;
+}
+
+.menu-item li a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #010d4c;
+    font-weight: 400;
+    position: relative;
+    transition: .4s;
+}
+
+.menu-item li a:hover {
+    color: #913bff;
+}
+
+.menu-item li a::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    background-color: #913bff;
+    top: 100%;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.menu-item li a:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.btn-primary {
+    --bs-btn-hover-bg: #1150a8;
+
+}
+
+/* Header Section Css End */
+
+/* Banner Section Css Start */
+.Banner {
+    background: url(./images/pexels-hasan-albari-1229861.jpg);
+    padding: 185px;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Banner h1 {
+    font-size: 75px;
+}
+
+.Banner h5 {
+    margin: 31px auto;
+    color: #878997;
+}
+
+/* Banner Section Css End */
+
+/* Counter Section Css Start */
+
+.counter h1 {
+    font-weight: 800;
+}
+
+/* Counter Section Css End */
+
+
+/* Product Section Css Start */
+
+.product-section {
+    background-color: #cecece;
+}
+
+.product-title-text p {
+    color: #a1a0a0;
+    font-size: 20px;
+}
+
+.product-title-text h1 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 55px;
+
+}
+
+.box {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.semicircle {
+    height: 100px;
+    width: 100px;
+    background-color: #913bff;
+    position: absolute;
+    border-radius: 50%;
+    right: -45px;
+    top: 82%;
+    text-align: center;
+    transform: scale(0);
+    transition: .4s;
+    transform-origin: bottom right;
+}
+
+.semicircle i {
+    line-height: 80px;
+    transform: scale(0);
+    transition: .6s ease-in-out;
+    margin-right: 25px;
+
+}
+
+.box-wrap:hover .semicircle {
+    transform: scale(1);
+}
+
+.box-wrap {
+    transition: .3s ease-in-out;
+}
+
+.box-wrap:hover {
+    transform: translateY(-15px);
+}
+
+.box-wrap:hover .semicircle i {
+    transform: scale(1);
+
+}
+
+.box img {
+    height: 320px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.box {
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-price {
+    color: #913bff;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.c-foot {
+    padding: 10px 0;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fff;
+}
+
+.c-foot p a {
+    color: #010d4c;
+    font-size: 16px;
+}
+
+/* Product Section Css End */
+
+
+/* Feature Section Css Start */
+.feature-title h3 {
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.feature-title p {
+    color: #595959;
+    margin-top: 15px;
+}
+
+.featurecardbox {
+    box-shadow: 0 0 50px rgba(168, 168, 207, 0.473);
+    padding: 20px;
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+}
+
+.featurecardbox i {
+    font-size: 50px;
+    padding: 20px 0;
+    color: #913bff;
+}
+
+.featurecardbox h5 {
+    font-weight: 600;
+    color: #010d4c;
+}
+
+.featurecardbox p {
+    color: #335371;
+}
+
+.featurecardbox:hover {
+    transform: translateY(-10px);
+}
+
+/* Feature Section Css End */
+
+/* Portfolio Section Css Start */
+.portfolio h4 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+.portfolio h1 {
+    font-weight: 700;
+    font-size: 53px;
+}
+
+.portfolio p {
+    color: #696b6c;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/* Portfolio Section Css End */
+
+/* Item Section Css Start */
+
+.product-title h4 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.box-wrap:hover .c-foot p a {
+    color: #913bff;
+}
+
+/* Item Section Css End */
+
+
+/* Pricing Section Css Start */
+.pricing-title h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.pricing-section {
+    background-image: url(./images/background6.jpg);
+    background-position: center center;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pricebox {
+    color: #010d4c;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.342);
+    border-radius: 15px;
+
+}
+
+.pricebox p {
+    color: #d0d0d0;
+    font-size: 20px;
+}
+
+.worth h5 {
+    display: inline-block;
+}
+
+.worth::before {
+    content: "$";
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+
+}
+
+.price h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.price {
+    margin-top: 50px;
+}
+
+/* Pricing Section Css End */
+
+
+/* Testimonial Section Css Start */
+
+.testimonial-section {
+    position: relative;
+}
+
+.testimonial-title p {
+    color: #5e7790;
+}
+
+.testimonial-title {
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    background-color: #ffff;
+    width: 100%;
+}
+
+.testimonial-background {
+    background-image: url(./images/background2.jpg);
+    background-position: top;
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-content {
+    text-align: center;
+    background-color: #000000 !important;
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.testimonial-content p {
+    color: #bababa;
+}
+
+
+.testimonial-icon i {
+    font-size: 55px;
+}
+
+.testimonial-content h6 {
+    font-size: 14px;
+}
+
+/* Testimonial Section Css End */
+
+
+/* Join Section Css Start */
+
+.join-section {
+    background-image: url(./images/background4.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.join-caption {
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+}
+
+.join-title h3 {
+    font-weight: 400;
+
+}
+
+.join-title p {
+    color: #939393;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.btn.btn-animated {
+    color: #808080;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+.btn.btn-animated:hover {
+    background-color: #d3d0d0;
+
+
+}
+
+.btn.btn-animated::after {
+    content: "";
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #faf8fc;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.btn.btn-animated:hover::after {
+    animation: playbtn .6s ease-in-out;
+    opacity: 0;
+    visibility: visible;
+}
+
+/* Join Section Css End */
+
+
+/* Newsletter Section Css Start */
+.caption h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 48px;
+}
+
+.form-ctrl {
+	padding: 16px;
+	text-align: start;
+	width: 518px;
+	border: none;
+	outline: none;
+	margin-left: 65px;
+	border-radius: 10px;
+}
+.sub{
+    position: relative;
+}
+
+.btn.btn-primary.animated {
+    padding: 13px 35px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    z-index: 1;
+    position: absolute;
+	top: 1px;
+	right: 65px;
+}
+
+.btn.btn-primary.animated::before {
+    content: "";
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #faf8fc;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.btn.btn-primary.animated:hover.btn.btn-primary.animated::before {
+    animation: playbtn .6s ease-in-out;
+    opacity: 0;
+    visibility: visible;
+}
+
+/* Newsletter Section Css End */
+
+
+/* Footer Section Css Start */
+.footer p {
+    color: #335371;
+
+}
+
+/* Footer Section Css End */
+
+
+/* Animated Button Css Start */
+
+
+@keyframes playbtn {
+    0% {
+        transform: scale(0);
+        opacity: .5;
+    }
+
+    25% {
+        transform: scale(.5);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: .5;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Animated Button Css End */
